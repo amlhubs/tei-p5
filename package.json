@@ -46,7 +46,7 @@
     "agenihub"
   ],
   "peerDependencies": {
-    "@amlhubs/uml": "^0.0.2",
+    "@amlhubs/uml": "^0.0.1",
     "@amlhubs/mof": "^0.0.1"
   },
   "license": "MIT"
