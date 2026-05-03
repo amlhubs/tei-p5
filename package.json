@@ -1,0 +1,53 @@
+{
+  "name": "@amlhubs/tei-p5",
+  "version": "0.0.1",
+  "description": "TEI P5 4.11.0 (linguistic subset) — Text Encoding Initiative Guidelines for Electronic Text Encoding and Interchange. TypeScript metaclasses for the linguistic-encoding modules: dictionaries, linguistics, analysis, corpus, gaiji, namesdates, transcr — covering ~80 element types out of TEI P5's ~600. Other modules (manuscripts, drama, verse, certainty, figures, etc.) are deferred to subsequent versions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amlhubs/tei-p5.git",
+    "directory": "."
+  },
+  "keywords": [
+    "tei",
+    "tei-p5",
+    "tei-p5-4.11.0",
+    "text-encoding-initiative",
+    "linguistic-encoding",
+    "metamodel",
+    "metaclass",
+    "dictionaries",
+    "lexicography",
+    "corpus-linguistics",
+    "computational-linguistics",
+    "nlp",
+    "odd",
+    "relaxng",
+    "agentic-modeling-language",
+    "aml",
+    "amlhubs",
+    "agenihub"
+  ],
+  "peerDependencies": {
+    "@amlhubs/uml": "^0.0.2",
+    "@amlhubs/mof": "^0.0.1"
+  },
+  "license": "MIT"
+}
